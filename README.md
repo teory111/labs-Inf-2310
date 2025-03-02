@@ -5,7 +5,7 @@ level 0
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
-level 0->1:
+# level 0->1:
 
 ls -alps
 cat readme
