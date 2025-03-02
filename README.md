@@ -7,62 +7,73 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 level 0->1:
 
+ls -alps
 cat readme
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 level 1->2:
 
+ls -alps
 cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx 
 
 level 2->3:
-
+ls -alps
 cat spaces\ in\ this\ filename
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 level 3->4:
-
-cd inhere/ 
+ls -alps
+cd inhere/
+ls -alps
 cat ...Hiding-From-You 
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 level 4->5:
 
+ls -alps
 cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 level 5->6:
 
+ls
 find . -size 1033c cat .file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 level 6->7:
 
+ls -alps
 find / -user bandit7 -group bandit6
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 level 7->8:
 
+ls -alps
 cat data.txt strings data.txt | grep "millionth" //busco la linea de texto que contenia "millionth" en data.txt
 millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 level 8->9:
 
+ls -alps
 sort data.txt | uniq -c //ordeno el data.txt y agrupo las copias
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 level 9->10:
 
+ls -alps
 strings data.txt | grep '=' //strings busca las cadenas imprimibles y grep busca algo en especifico, en este caso '='
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 level 10->11:
 
+ls -alps
 base 64 -d data.txt //base -d decodifica
 dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 level 11->12:
 
+ls -alps
 rot 13
 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
