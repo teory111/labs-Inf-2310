@@ -323,5 +323,29 @@ Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 
 # level 31->32:
 
+  1  mkdir /tmp/codo
+    2  cd /tmp/codo
+    3  git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+    4  ls
+    5  cd repo
+    6  ls
+    7  cat README.md
+    8  git branch -a
+    9  echo "May I come in?" > key.txt
+   10  cat key.txt
+   11  git status
+   12  git add key.txt
+   13  cat .gitignore
+   14  git add -f key.txt
+   15  git status
+   16  git commit -m "added key.txt file"
+   17  git status
+   18  git push
+
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+# level 32->33:
+
+
 
 
