@@ -346,6 +346,11 @@ Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 
 # level 32->33:
 
+$0
+$ pwd
+$ $id
+$ cat /etc/bandit_pass/bandit33
+
 tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
 
 
