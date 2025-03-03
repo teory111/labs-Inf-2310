@@ -252,5 +252,76 @@ gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 3 :e /etc/bandit_pass/bandit26
 s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 
+# level 26->27:
+
+ 1  ls
+    2  file bandit27-do
+    3  ls -l bandit27-do
+    4  ./bandit27-do
+    5  ./bandit27-do id
+    6  ./bandit27-do cat /etc/bandit_pass/bandit27
+
+upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+# level 27->28:
+
+1  mkdir /tmp/codew
+    2  cd /tmp/codew
+    3  git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+    4  git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+    5  ls
+    6  cd repo
+    7  ls
+    8  cat README
+
+Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+# level 28->29:
+
+ 1  mkdir /tmp/code
+    2  cd /tmp/code
+    3  git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+    4  ls
+    5  cd repo
+    6  cat README.md
+    7  git log
+    8  git show 3621de89d8eac9d3b64302bfb2dc67e9a566decd
+    9  git show 817e303aa6c2b207ea043c7bba1bb7575dc4ea73
+   10  git log
+   11  git show 3621de89d8eac9d3b64302bfb2dc67e9a566decd
+
+4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+# level 29->30:
+
+1  mkdir /tmp/29
+    2  cd tmp/29
+    3  cd /tmp/29
+    4  ls
+    5  cd repo
+    6  ls
+    7  cat README.md
+
+   qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+# level 30->31:
+
+ 1  mkdir /tmp/12
+    2  cd /tmp/12
+    3  git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+    4  cat /etc/bandit_pass/bandit30
+    5  git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+    6  cd repo
+    7  ls
+    8  cat README.md
+    9  git log
+   10  git branch -a
+   11  git tag
+   12  git show secret
+
+ fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+# level 31->32:
+
 
 
