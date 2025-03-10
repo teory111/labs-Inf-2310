@@ -1,4 +1,4 @@
-# lab01
+# laboratorios INF 2310
 laboratorio de estructura de datos
 
 level 0
