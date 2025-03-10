@@ -1,4 +1,4 @@
-# laboratorios INF 2310
+# Bandit
 laboratorio de estructura de datos
 
 level 0
