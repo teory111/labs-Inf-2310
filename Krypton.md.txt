@@ -1,0 +1,341 @@
+#level 0
+convertir de base 64 S1JZUFRPTklTR1JFQVQ=
+password: KRYPTONISGREAT
+
+
+#level 1
+
+ 1  ls
+    2  cd /krypton/krypton1
+    3  ls
+    4  cat README
+    5  cat krypton2 | tr "[ABCDEFGHIJKLMNOPQRSTUVWXYZ]" "[NOPQRSTUVWXYZABCDEFGHIJKLM]"
+    6  cat krypton2 | tr "[A-Z]" "[N-ZA-M]"
+    7  history
+
+password: ROTTEN
+
+#level 2
+  1  cd /krypton/krypton2
+    2  ls
+    3  cat krypton3
+    4  cat README
+    5  mktemp -d
+    6  cd /tmp/tmp.9nrqpgBX97
+    7  ln -s /krypton/krypton2/keyfile.dat
+    8  ls
+    9  chmod 777 .
+   10  ls
+   11  cat /etc/issue
+   12  /krypton/krypton2/encrypt /etc/issue
+   13  ls
+   14  cat ciphertext
+   15  touch ptext
+   16  nano ptext
+   17  cat ptext
+   18  /krypton/krypton2/encrypt ptext
+   19  ls
+   20  cat ciphertext
+   21  cat /krypton/krypto/krypto3n
+   22  cat /krypton/krypto/krypton3
+   23  cat /krypton/krypton2/krypton3
+   24  cat /krypton/krypton2/krypton3 | tr "[M-ZA-L]" "[A-Z]"
+   25  history
+
+password:  CAESARISEASY
+
+#level 3
+  1  cd /krypton/krypton3
+    2  ls
+    3  cat krypton4
+    4  cat README
+    5  mktemp -d
+    6  cd /tmp/tmp.L7mAW0tX5u
+    7  ls
+    8  cp /krypton/krypton3/krypton4 ./
+    9  ls
+   10  cat krypton4
+   11  python3 freq_analysis.py /krypton/krypton3/found3 1
+   12  python3 freq_analysis.py /krypton/krypton3/found1 1
+   13  cat krypton4 | tr "[JDSQBKV]" "[THEAOWL]"
+   14* cat krypton4 | tr "[JDSQBKVIWGYUN]
+   15  cat krypton4 | tr "[JDSQBKVIWGYUN]" "[THEAOWLVDNPSR]"
+   16  history
+
+
+password: BRUTE
+
+
+
+#level 4
+  1  cd krypton/krypton4
+    2  cd /krypton/krypton4
+    3  ls
+    4  mktemp -d
+    5  cd /tmp/tmp.7qtULuBmFp
+    6  ls
+    7  python3 vignere_shift.py /krypton/krypton4/found1 6 0
+    8  python3 freq_analysis.py ^C
+    9  python3 vignere_shift.py /krypton/krypton4/found1 6 0 > found1_shift0
+   10  ls
+   11  python3 freq_analysis.py  found1_shift0 1
+   12  python3 vignere_shift.py /krypton/krypton4/found1 6 1 > found1_shift1
+   13  ls
+   14  python3 freq_analysis.py  found1_shift1 1
+   15  ls
+   16  python3 vignere_decoder.py /krypton/krypton4/krypton5 FREKEY
+   17  cat /krypton/krypton4/krypton5
+   18  history
+
+password: CLEARTEXT
+
+#level 5
+
+  1  ls
+    2  ls _alps
+    3  ls -alps
+    4  cd /krypton/krypton5
+    5  mktemp -d
+    6  cd /tmp/tmp.wp0rrWWExF
+    7  ls
+    8  python3 KeyLength.py /krypton/krypton5/found1
+    9  python3 KeyLength.py /krypton/krypton5/found2
+   10  python3 KeyLength.py /krypton/krypton5/found3
+   11  python3 vignere_shift.py /krypton/krypton5/found1 9 0 >found1_shift0
+   12  python3 vignere_shift.py /krypton/krypton5/found1 9 0 > found1_shift0
+   13  cat found1_shift0
+   14  python3 vignere_shift.py /krypton/krypton5/found2 9 0 > found2_shift0
+   15  cat found2_shift0
+   16  python3 freq_analysis.py found1_shift0 1
+   17  python3 freq_analysis.py found2_shift0 1
+   18  python3 vignere_shift.py /krypton/krypton5/found3 9 0 > found3_shift0
+   19  python3 freq_analysis.py found3_shift0 1
+   20 python
+   21  python3 vignere_decoder.py /krypton/krypton5/krypton6 KEYLENGTH
+
+password: RANDOM
+
+#level 6 (FINAL)
+
+
+  1  cd /krypton/krypton6
+    2  ls
+    3  mktemp -d
+    4  cd /tmp/tmp.5gCrjhwV8L
+    5  ln -s /krypton/krypton6/keyfile.dat
+    6  ls
+    7  chmod 777 .
+    8  ls
+    9  ls /krypton/krypton6
+   10  touch tale.txt
+   11  nano
+   12  cat tale.txt
+   13  /krypton/krypton6/encrypt6 tale.txt ciphertale
+   14  ls
+   15  cat ciphertale
+   16  man xxd
+   17  xxd -b tale.txt
+   18  xxd -b ciphertale
+   19  python -c "print('A'*100)"
+   20  python -c "print('A'*100)" > a.txt
+   21  cat a.txt
+   22  /krypton/kryton6/encrypt6 a.txt cipher_a.txt
+   23  /krypton/krypton6/encrypt6 a.txt cipher_a.txt
+   24  cat a.txt
+   25  cat cipher_a.txt
+   26  ls
+   27  python3 vignere_decoder-py /krypton/krypton6/krypton7 EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+   28  python3 vignere_decoder.py /krypton/krypton6/krypton7 EICTDGYIYZKTHNSIRFXYCPFUEOCKRN
+   29  history
+
+password: LFSRISNOTRANDOM
+
+CODIGOS EXTRA QUE SE USARON.
+CON CREDITOS AL AUTOR
+
+PARA freq_analysis.py
+
+#!/usr/bin/python3
+
+# Script by Mike Rosinsky 
+
+import sys
+
+if __name__=="__main__":
+
+	char_table = {}
+	char_total = 0
+	groupsize = 0
+
+	#Check Argument Counts
+	if len(sys.argv) != 3:
+		print("Usage: python3 freq_analysis.py filename groupsize")
+		exit(0)
+	else:
+
+		try:
+			groupsize = int(sys.argv[2])
+		except:
+			print("groupsize must be an int")
+			exit(0)
+
+		# Try to Open the specified file
+		try:
+			with open(sys.argv[1]) as fh:
+				lines = fh.readlines()
+		except:
+			print("No file named '" + sys.argv[1] + "'")
+			exit(0)
+
+		for line in lines:
+			line = line.replace(" ", "")
+			line = line.replace("\n", "")
+			for i in range(len(line) - groupsize):
+				group = line[i:i+groupsize]
+				if group in char_table:
+					char_table[group] += 1
+				else:
+					char_table[group] = 1
+
+		char_table = sorted(char_table.items(), key=lambda x: x[1], reverse=True)
+
+		for char in char_table:
+			print(char[0] + ":\t" + str(char[1]))
+
+
+PARA vignere_decoder.py
+
+#!/bin/usr/python3
+
+# Script by Mike Rosinsky
+
+import sys
+
+key = ""
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+if __name__=="__main__":
+
+	out_string = ""
+
+	if (len(sys.argv)) != 3:
+		print("Usage: python3 vignere_decoder.py filename key")
+		exit(0)
+	else:
+
+		key = sys.argv[2]
+
+		print("Decoding file '" + sys.argv[1] + "' with key '" + sys.argv[2] + "':\n")
+
+		try:
+			with open(sys.argv[1]) as fh:
+				lines = fh.readlines()
+		except:
+			print("No file named '" + sys.argv[1] + "'")
+			exit(0)
+
+		for line in lines:
+			line = line.replace(" ", "")
+			line = line.replace("\n", "")
+			for index in range(len(line)):
+				c = alphabet[(alphabet.index(line[index]) - alphabet.index(key[index % len(key)])) % 26]
+				out_string += c
+
+	print(out_string)
+
+
+
+PARA vignere_shift.py
+
+#!/usr/bin/python3
+
+# Script by Mike Rosinsky
+
+import sys
+
+if __name__=="__main__":
+
+	key_length = 4
+	shift = 0
+	out_string = ""
+
+	if len(sys.argv) > 4:
+		print("Usage: python3 vignere_shift.py filename key_length [shift]")
+		exit(0)
+	else:
+
+		try:
+			key_length = int(sys.argv[2])
+			if len(sys.argv) == 4:
+				shift = int(sys.argv[3])
+		except:
+			print("key_length and [shift] must be an int")
+			exit(0)
+
+		try:
+			with open(sys.argv[1]) as fh:
+				lines = fh.readlines()
+		except:
+			print("No file named '" + sys.argv[1] + "'")
+			exit(0)
+
+		for line in lines:
+			line = line.replace(" ", "")
+			line = line.replace("\n", "")
+			for index in range(shift, len(line)):
+				if index % key_length == shift:
+					out_string += line[index]
+
+		print(out_string)
+
+
+
+PARA keyLenght.py
+
+
+import sys
+
+if __name__=='__main__':
+	
+	rep_seq = []
+	rep_seq_spaces = []
+	tallys = [0]*20
+
+	if len(sys.argv) != 2:
+		print("Usage: python3 keyLength.py filename")
+		exit(0)
+	else:
+
+		try:
+			with open(sys.argv[1]) as fh:
+				lines = fh.readlines()
+		except:
+			print("No file named '" + sys.argv[1] + "'")
+			exit(0)
+
+		for line in lines:
+			line.replace(" ", "")
+			line.replace("\n", "")
+			for length in range(3,5+1):
+				for i in range(len(line)-length+1):
+					q = line[i:i+length]
+					for j in range(i+1,len(line)-length+1):
+						r = line[j:j+length]
+						if q == r:
+							rep_seq.append(q)
+							rep_seq_spaces.append(j-i)
+
+		for n in rep_seq_spaces:
+			for i in range(1,20):
+				if n % i == 0:
+					tallys[i] = tallys[i] + 1
+
+		s = sum(tallys)
+		if s == 0:
+			print("No repeating sequences")
+		else :
+			print("Chance key length is: ")
+			for i in range(1,len(tallys)):
+				print(str(i) + " = " + str(round((tallys[i]/s)* 100,2)) + "%")
+
+
