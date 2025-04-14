@@ -1,9 +1,9 @@
 # Getting Started
 
-## 1.History
+## 1.History   10:00 p.m.  domingo, 13 de abril de 2025  
 
 Quiz
-Who developed the Linux kernel?
+Who developed the Linux kernel? 
  Correct answer!
 Linus Torvalds
 
@@ -71,7 +71,7 @@ What package manager does Arch Linux use?
  Correct answer!
 Pacman
 
-## 10.openSUSE
+## 10.openSUSE  10:16 p.m.    domingo, 13 de abril de 2025
 
 Quiz
 What is the name of openSUSE's Administration/Installation Tool?
